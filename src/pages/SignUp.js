@@ -1,14 +1,3 @@
-/*!
-=========================================================
-* Muse Ant Design Dashboard - v1.0.0
-=========================================================
-* Product Page: https://www.creative-tim.com/product/muse-ant-design-dashboard
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/muse-ant-design-dashboard/blob/main/LICENSE.md)
-* Coded by Creative Tim
-=========================================================
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 import React, { Component } from "react";
 import {
   Layout,
@@ -18,7 +7,7 @@ import {
   Card,
   Form,
   Input,
-  Checkbox,
+  Checkbox
 } from "antd";
 import logo1 from "../assets/images/logos-facebook.svg";
 import logo2 from "../assets/images/logo-apple.svg";
@@ -29,7 +18,7 @@ import {
   DribbbleOutlined,
   TwitterOutlined,
   InstagramOutlined,
-  GithubOutlined,
+  GithubOutlined
 } from "@ant-design/icons";
 
 const { Title } = Typography;
@@ -61,7 +50,7 @@ const template = [
       fill="#111827"
       className="fill-muted"
     ></path>
-  </svg>,
+  </svg>
 ];
 const profile = [
   <svg
@@ -80,7 +69,7 @@ const profile = [
       fill="#111827"
       className="fill-muted"
     ></path>
-  </svg>,
+  </svg>
 ];
 const signup = [
   <svg
@@ -99,7 +88,7 @@ const signup = [
       fill="#111827"
       className="fill-muted"
     ></path>
-  </svg>,
+  </svg>
 ];
 const signin = [
   <svg
@@ -112,7 +101,7 @@ const signin = [
       className="fill-muted"
       d="M12.25,14H1.75A1.752,1.752,0,0,1,0,12.25V3.5A1.752,1.752,0,0,1,1.75,1.75h.876V.875a.875.875,0,0,1,1.75,0V1.75h5.25V.875a.875.875,0,0,1,1.75,0V1.75h.875A1.752,1.752,0,0,1,14,3.5v8.75A1.752,1.752,0,0,1,12.25,14ZM3.5,4.375a.875.875,0,0,0,0,1.75h7a.875.875,0,0,0,0-1.75Z"
     />
-  </svg>,
+  </svg>
 ];
 export default class SignUp extends Component {
   render() {
@@ -201,7 +190,7 @@ export default class SignUp extends Component {
                 <Form.Item
                   name="Name"
                   rules={[
-                    { required: true, message: "Please input your username!" },
+                    { required: true, message: "Please input your username!" }
                   ]}
                 >
                   <Input placeholder="Name" />
@@ -209,7 +198,7 @@ export default class SignUp extends Component {
                 <Form.Item
                   name="email"
                   rules={[
-                    { required: true, message: "Please input your email!" },
+                    { required: true, message: "Please input your email!" }
                   ]}
                 >
                   <Input placeholder="email" />
@@ -217,7 +206,7 @@ export default class SignUp extends Component {
                 <Form.Item
                   name="password"
                   rules={[
-                    { required: true, message: "Please input your password!" },
+                    { required: true, message: "Please input your password!" }
                   ]}
                 >
                   <Input placeholder="Passwoed" />

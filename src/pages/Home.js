@@ -1,14 +1,3 @@
-/*!
-  =========================================================
-  * Muse Ant Design Dashboard - v1.0.0
-  =========================================================
-  * Product Page: https://www.creative-tim.com/product/muse-ant-design-dashboard
-  * Copyright 2021 Creative Tim (https://www.creative-tim.com)
-  * Licensed under MIT (https://github.com/creativetimofficial/muse-ant-design-dashboard/blob/main/LICENSE.md)
-  * Coded by Creative Tim
-  =========================================================
-  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 import { useState } from "react";
 
 import {
@@ -22,12 +11,12 @@ import {
   message,
   Button,
   Timeline,
-  Radio,
+  Radio
 } from "antd";
 import {
   ToTopOutlined,
   MenuUnfoldOutlined,
-  RightOutlined,
+  RightOutlined
 } from "@ant-design/icons";
 import Paragraph from "antd/lib/typography/Paragraph";
 
@@ -76,7 +65,7 @@ function Home() {
         d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM11 5C11 4.44772 10.5523 4 10 4C9.44772 4 9 4.44772 9 5V5.09199C8.3784 5.20873 7.80348 5.43407 7.32398 5.75374C6.6023 6.23485 6 7.00933 6 8C6 8.99067 6.6023 9.76515 7.32398 10.2463C7.80348 10.5659 8.37841 10.7913 9.00001 10.908L9.00002 12.8492C8.60902 12.7223 8.31917 12.5319 8.15667 12.3446C7.79471 11.9275 7.16313 11.8827 6.74599 12.2447C6.32885 12.6067 6.28411 13.2382 6.64607 13.6554C7.20855 14.3036 8.05956 14.7308 9 14.9076L9 15C8.99999 15.5523 9.44769 16 9.99998 16C10.5523 16 11 15.5523 11 15L11 14.908C11.6216 14.7913 12.1965 14.5659 12.676 14.2463C13.3977 13.7651 14 12.9907 14 12C14 11.0093 13.3977 10.2348 12.676 9.75373C12.1965 9.43407 11.6216 9.20873 11 9.09199L11 7.15075C11.391 7.27771 11.6808 7.4681 11.8434 7.65538C12.2053 8.07252 12.8369 8.11726 13.254 7.7553C13.6712 7.39335 13.7159 6.76176 13.354 6.34462C12.7915 5.69637 11.9405 5.26915 11 5.09236V5Z"
         fill="#fff"
       ></path>
-    </svg>,
+    </svg>
   ];
   const profile = [
     <svg
@@ -103,7 +92,7 @@ function Home() {
         d="M6 11C8.76142 11 11 13.2386 11 16V17H1V16C1 13.2386 3.23858 11 6 11Z"
         fill="#fff"
       ></path>
-    </svg>,
+    </svg>
   ];
   const heart = [
     <svg
@@ -120,7 +109,7 @@ function Home() {
         d="M3.17157 5.17157C4.73367 3.60948 7.26633 3.60948 8.82843 5.17157L10 6.34315L11.1716 5.17157C12.7337 3.60948 15.2663 3.60948 16.8284 5.17157C18.3905 6.73367 18.3905 9.26633 16.8284 10.8284L10 17.6569L3.17157 10.8284C1.60948 9.26633 1.60948 6.73367 3.17157 5.17157Z"
         fill="#fff"
       ></path>
-    </svg>,
+    </svg>
   ];
   const cart = [
     <svg
@@ -137,7 +126,7 @@ function Home() {
         d="M10 2C7.79086 2 6 3.79086 6 6V7H5C4.49046 7 4.06239 7.38314 4.00612 7.88957L3.00612 16.8896C2.97471 17.1723 3.06518 17.455 3.25488 17.6669C3.44458 17.8789 3.71556 18 4 18H16C16.2844 18 16.5554 17.8789 16.7451 17.6669C16.9348 17.455 17.0253 17.1723 16.9939 16.8896L15.9939 7.88957C15.9376 7.38314 15.5096 7 15 7H14V6C14 3.79086 12.2091 2 10 2ZM12 7V6C12 4.89543 11.1046 4 10 4C8.89543 4 8 4.89543 8 6V7H12ZM6 10C6 9.44772 6.44772 9 7 9C7.55228 9 8 9.44772 8 10C8 10.5523 7.55228 11 7 11C6.44772 11 6 10.5523 6 10ZM13 9C12.4477 9 12 9.44772 12 10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10C14 9.44772 13.5523 9 13 9Z"
         fill="#fff"
       ></path>
-    </svg>,
+    </svg>
   ];
   const count = [
     {
@@ -145,29 +134,29 @@ function Home() {
       title: "$53,000",
       persent: "+30%",
       icon: dollor,
-      bnb: "bnb2",
+      bnb: "bnb2"
     },
     {
       today: "Today’s Users",
       title: "3,200",
       persent: "+20%",
       icon: profile,
-      bnb: "bnb2",
+      bnb: "bnb2"
     },
     {
       today: "New Clients",
       title: "+1,200",
       persent: "-20%",
       icon: heart,
-      bnb: "redtext",
+      bnb: "redtext"
     },
     {
       today: "New Orders",
       title: "$13,200",
       persent: "10%",
       icon: cart,
-      bnb: "bnb2",
-    },
+      bnb: "bnb2"
+    }
   ];
 
   const list = [
@@ -191,7 +180,7 @@ function Home() {
             <img className="tootip-img" src={team4} alt="" />
           </Tooltip>
         </div>
-      ),
+      )
     },
     {
       img: ava2,
@@ -207,7 +196,7 @@ function Home() {
             <img className="tootip-img" src={team2} alt="" />
           </Tooltip>
         </div>
-      ),
+      )
     },
     {
       img: ava3,
@@ -226,7 +215,7 @@ function Home() {
             <img className="tootip-img" src={team3} alt="" />
           </Tooltip>
         </div>
-      ),
+      )
     },
     {
       img: ava4,
@@ -242,7 +231,7 @@ function Home() {
             <img className="tootip-img" src={team2} alt="" />
           </Tooltip>
         </div>
-      ),
+      )
     },
     {
       img: ava5,
@@ -264,7 +253,7 @@ function Home() {
             <img className="tootip-img" src={team4} alt="" />
           </Tooltip>
         </div>
-      ),
+      )
     },
 
     {
@@ -288,45 +277,45 @@ function Home() {
             <img className="tootip-img" src={team2} alt="" />
           </Tooltip>
         </div>
-      ),
-    },
+      )
+    }
   ];
 
   const timelineList = [
     {
       title: "$2,400 - Redesign store",
       time: "09 JUN 7:20 PM",
-      color: "green",
+      color: "green"
     },
     {
       title: "New order #3654323",
       time: "08 JUN 12:20 PM",
-      color: "green",
+      color: "green"
     },
     {
       title: "Company server payments",
-      time: "04 JUN 3:10 PM",
+      time: "04 JUN 3:10 PM"
     },
     {
       title: "New card added for order #4826321",
-      time: "02 JUN 2:45 PM",
+      time: "02 JUN 2:45 PM"
     },
     {
       title: "Unlock folders for development",
-      time: "18 MAY 1:30 PM",
+      time: "18 MAY 1:30 PM"
     },
     {
       title: "New order #46282344",
       time: "14 MAY 3:30 PM",
-      color: "gray",
-    },
+      color: "gray"
+    }
   ];
 
   const uploadProps = {
     name: "file",
     action: "https://www.mocky.io/v2/5cc8019d300000980a055e76",
     headers: {
-      authorization: "authorization-text",
+      authorization: "authorization-text"
     },
     onChange(info) {
       if (info.file.status !== "uploading") {
@@ -337,7 +326,7 @@ function Home() {
       } else if (info.file.status === "error") {
         message.error(`${info.file.name} file upload failed.`);
       }
-    },
+    }
   };
 
   return (

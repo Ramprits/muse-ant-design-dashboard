@@ -3,8 +3,8 @@ const eChart = {
     {
       name: "Sales",
       data: [450, 200, 100, 220, 500, 100, 400, 230, 500],
-      color: "#fff",
-    },
+      color: "#fff"
+    }
   ],
 
   options: {
@@ -14,28 +14,28 @@ const eChart = {
       height: "auto",
 
       toolbar: {
-        show: false,
-      },
+        show: false
+      }
     },
     plotOptions: {
       bar: {
         horizontal: false,
         columnWidth: "55%",
-        borderRadius: 5,
-      },
+        borderRadius: 5
+      }
     },
     dataLabels: {
-      enabled: false,
+      enabled: false
     },
     stroke: {
       show: true,
       width: 1,
-      colors: ["transparent"],
+      colors: ["transparent"]
     },
     grid: {
       show: true,
       borderColor: "#ccc",
-      strokeDashArray: 2,
+      strokeDashArray: 2
     },
     xaxis: {
       categories: [
@@ -47,7 +47,7 @@ const eChart = {
         "Jul",
         "Aug",
         "Sep",
-        "Oct",
+        "Oct"
       ],
       labels: {
         show: true,
@@ -65,10 +65,10 @@ const eChart = {
             "#fff",
             "#fff",
             "#fff",
-            "#fff",
-          ],
-        },
-      },
+            "#fff"
+          ]
+        }
+      }
     },
     yaxis: {
       labels: {
@@ -87,20 +87,20 @@ const eChart = {
             "#fff",
             "#fff",
             "#fff",
-            "#fff",
-          ],
-        },
-      },
+            "#fff"
+          ]
+        }
+      }
     },
 
     tooltip: {
       y: {
         formatter: function (val) {
           return "$ " + val + " thousands";
-        },
-      },
-    },
-  },
+        }
+      }
+    }
+  }
 };
 
 export default eChart;
