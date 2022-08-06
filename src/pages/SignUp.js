@@ -103,6 +103,7 @@ const signin = [
     />
   </svg>
 ];
+
 export default class SignUp extends Component {
   render() {
     const onFinish = (values) => {

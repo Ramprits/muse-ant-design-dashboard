@@ -1,15 +1,3 @@
-/*!
-  =========================================================
-  * Muse Ant Design Dashboard - v1.0.0
-  =========================================================
-  * Product Page: https://www.creative-tim.com/product/muse-ant-design-dashboard
-  * Copyright 2021 Creative Tim (https://www.creative-tim.com)
-  * Licensed under MIT (https://github.com/creativetimofficial/muse-ant-design-dashboard/blob/main/LICENSE.md)
-  * Coded by Creative Tim
-  =========================================================
-  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 import {
   Row,
   Col,
@@ -18,7 +6,7 @@ import {
   Button,
   List,
   Descriptions,
-  Avatar,
+  Avatar
 } from "antd";
 
 import { PlusOutlined, ExclamationOutlined } from "@ant-design/icons";
@@ -31,28 +19,28 @@ function Billing() {
     {
       title: "March, 01, 2021",
       description: "#MS-415646",
-      amount: "$180",
+      amount: "$180"
     },
     {
       title: "February, 12, 2021",
       description: "#RV-126749",
-      amount: "$250",
+      amount: "$250"
     },
     {
       title: "April, 05, 2020",
       description: "#FB-212562",
-      amount: "$550",
+      amount: "$550"
     },
     {
       title: "June, 25, 2019",
       description: "#QW-103578",
-      amount: "$400",
+      amount: "$400"
     },
     {
       title: "March, 03, 2019",
       description: "#AR-803481",
-      amount: "$700",
-    },
+      amount: "$700"
+    }
   ];
 
   const wifi = [
@@ -107,7 +95,7 @@ function Billing() {
           strokeWidth="1.5"
         ></path>
       </g>
-    </svg>,
+    </svg>
   ];
 
   const angle = [
@@ -152,7 +140,7 @@ function Billing() {
           strokeWidth="1.5"
         ></path>
       </g>
-    </svg>,
+    </svg>
   ];
 
   const pencil = [
@@ -172,7 +160,7 @@ function Billing() {
         d="M11.3787 5.79289L3 14.1716V17H5.82842L14.2071 8.62132L11.3787 5.79289Z"
         className="fill-gray-7"
       ></path>
-    </svg>,
+    </svg>
   ];
   const download = [
     <svg
@@ -189,7 +177,7 @@ function Billing() {
         d="M3 17C3 16.4477 3.44772 16 4 16H16C16.5523 16 17 16.4477 17 17C17 17.5523 16.5523 18 16 18H4C3.44772 18 3 17.5523 3 17ZM6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L9 3C9 2.44772 9.44771 2 10 2C10.5523 2 11 2.44771 11 3L11 10.5858L12.2929 9.29289C12.6834 8.90237 13.3166 8.90237 13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289Z"
         fill="#111827"
       ></path>
-    </svg>,
+    </svg>
   ];
   const deletebtn = [
     <svg
@@ -207,7 +195,7 @@ function Billing() {
         fill="#111827"
         className="fill-danger"
       ></path>
-    </svg>,
+    </svg>
   ];
 
   const information = [
@@ -215,19 +203,19 @@ function Billing() {
       title: "Oliver Liam",
       description: "Viking Burrito",
       address: "oliver@burrito.com",
-      vat: "FRB1235476",
+      vat: "FRB1235476"
     },
     {
       title: "Lucas Harper",
       description: "Stone Tech Zone",
       address: "lucas@syone-tech.com",
-      vat: "FRB1235476",
+      vat: "FRB1235476"
     },
     {
       title: "Oliver Liam",
       description: "ethan@fiber.com",
-      vat: "NumberFRB1235476",
-    },
+      vat: "NumberFRB1235476"
+    }
   ];
   const calender = [
     <svg
@@ -245,7 +233,7 @@ function Billing() {
         fill="#111827"
         className="fill-muted"
       ></path>
-    </svg>,
+    </svg>
   ];
   const mins = [
     <svg
@@ -262,7 +250,7 @@ function Billing() {
         d="M5 10C5 9.44772 5.44772 9 6 9L14 9C14.5523 9 15 9.44772 15 10C15 10.5523 14.5523 11 14 11L6 11C5.44772 11 5 10.5523 5 10Z"
         className="fill-danger"
       ></path>
-    </svg>,
+    </svg>
   ];
   const newest = [
     {
@@ -272,7 +260,7 @@ function Billing() {
       description: "27 March 2021, at 12:30 PM",
       amount: "- $2,500",
       textclass: "text-light-danger",
-      amountcolor: "text-danger",
+      amountcolor: "text-danger"
     },
     {
       avatar: <PlusOutlined style={{ fontSize: 10 }} />,
@@ -280,8 +268,8 @@ function Billing() {
       description: "27 March 2021, at 04:30 AM",
       amount: "+ $2,000",
       textclass: "text-fill",
-      amountcolor: "text-success",
-    },
+      amountcolor: "text-success"
+    }
   ];
   const yesterday = [
     {
@@ -290,7 +278,7 @@ function Billing() {
       description: "26 March 2021, at 12:30 AM",
       amount: "+ $750",
       textclass: "text-fill",
-      amountcolor: "text-success",
+      amountcolor: "text-success"
     },
     {
       avatar: <PlusOutlined style={{ fontSize: 10 }} />,
@@ -298,7 +286,7 @@ function Billing() {
       description: "26 March 2021, at 11:30 AM",
       amount: "+ $1,050",
       textclass: "text-fill",
-      amountcolor: "text-success",
+      amountcolor: "text-success"
     },
     {
       avatar: <PlusOutlined style={{ fontSize: 10 }} />,
@@ -306,7 +294,7 @@ function Billing() {
       description: "26 March 2021, at 07:30 AM",
       amount: "+ $2,400",
       textclass: "text-fill",
-      amountcolor: "text-success",
+      amountcolor: "text-success"
     },
     {
       avatar: <ExclamationOutlined style={{ fontSize: 10 }} />,
@@ -314,8 +302,8 @@ function Billing() {
       description: "26 March 2021, at 04:00 AM",
       amount: "Pending",
       textclass: "text-warning",
-      amountcolor: "text-warning-b",
-    },
+      amountcolor: "text-warning-b"
+    }
   ];
 
   return (
@@ -429,7 +417,7 @@ function Billing() {
             extra={[
               <Button type="primary">
                 <span>VIEW ALL</span>
-              </Button>,
+              </Button>
             ]}
           >
             <List
